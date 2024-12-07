@@ -115,3 +115,41 @@ footer {
     font-size: 0.9rem;
     margin-top: 40px;
 }
+
+/* Back-to-top button for the entire page */
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background: #333;
+    color: #fff;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 50%;
+    display: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+#back-to-top:hover {
+    background: #555;
+}
+
+/* Back to top button for each topic */
+.scroll-to-top-topic {
+    background: #333;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.scroll-to-top-topic:hover {
+    background: #555;
+}
